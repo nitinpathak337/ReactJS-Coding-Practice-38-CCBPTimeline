@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.heading-duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tags-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tags-item {
+  background-color: lightblue;
+  margin-right: 2%;
+  padding: 1%;
+  color: #1e293b;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
